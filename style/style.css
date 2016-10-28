@@ -1,0 +1,256 @@
+                 /*
+==============================================
+MAIN CSS FILE
+==============================================
+*/
+                 
+                 @import 'https://fonts.googleapis.com/css?family=Muli';
+                 @import 'https://fonts.googleapis.com/css?family=Rokkitt';
+                 @media all and (max-width: 1500px) {
+                  html {
+                   font-size: 18px;
+                   background: #ffffff;
+                   max-width: 1500px;
+                   height: 100%;
+                  }
+                 }
+                 
+                 @media all and (max-width: 699px) {
+                  html {
+                   font-size: 14px;
+                  }
+                 }
+                 
+                 body {
+                  margin: 0;
+                 }
+                 
+                 * {
+                  box-sizing: border-box;
+                 }
+                 
+                 .clear {
+                  clear: both;
+                  display: block;
+                  visibility: hidden;
+                  content: '';
+                  line-height: 0;
+                  height: 0;
+                 }
+                 
+                 h1 {
+                  font-size: 4rem;
+                  font-family: "Rokkitt", sans-serif;
+                  text-align: center;
+                  letter-spacing: 2px;
+                  margin-top: 40px;
+                  margin-bottom: 20px;
+                  box-sizing: border-box;
+                  font-weight: 300;
+                 }
+                 
+                 p {
+                  font-family: 'Muli', sans-serif;
+                  margin: 0;
+                 }
+                 /*
+==============================================
+HEADER AND LOGO
+==============================================
+*/
+                 
+                 #logo {
+                  padding: 0.6975rem;
+                  width: 85px;
+                  height: 85px;
+                  margin-left: 0.8vw;
+                 }
+                 
+                 .main-header {
+                  font-family: 'Rokkitt', sans-serif;
+                  color: #fff;
+                  width: 100%;
+                  z-index: auto;
+                  text-align: center;
+                  background-size: cover;
+                  Padding: 20% 0% 14%;
+                  font-weight: bold;
+                  letter-spacing: 0.155rem;
+                  max-width: 1500px;
+                  height: auto;
+                  height: 100%;
+                 }
+                 
+                 .main-header h1 {
+                  font-size: 8rem;
+                  font-weight: bolder;
+                  letter-spacing: 3rem;
+                 }
+                 
+                 .main-header h5 {
+                  font-size: 2.2rem;
+                  font-weight: none;
+                  letter-spacing: 1.2rem;
+                  margin-top: 0;
+                  color: #f60001;
+                 }
+                 /*
+==============================================
+NAVIGATION
+==============================================
+*/
+                 
+                 nav {
+                  float: right;
+                  width: 100%;
+                  height: 4.6rem;
+                  list-style: none;
+                  margin: 0;
+                 }
+                 
+                 nav li {
+                  list-style: none;
+                  text-decoration: none;
+                  display: inline;
+                  padding: 0px 20px;
+                  font-family: 'muli', sans-serif;
+                  font-size: 0.6525rem;
+                  font-weight: 900;
+                 }
+                 
+                 nav li a:hover {
+                  color: #03A9F4;
+                 }
+                 
+                 nav a {
+                  text-decoration: none;
+                  color: #353b49;
+                  letter-spacing: 0.0625rem;
+                 }
+                 
+                 a,
+                 a:visited {
+                  outline: none;
+                  transition: all 0.3s ease-in-out;
+                 }
+                 
+                 a:hover,
+                 a:focus {
+                  color: #e71d36;
+                 }
+                 
+                 nav ul {
+                  display: inline;
+                  margin-left: 60%;
+                  margin-bottom: 50px;
+                  position: fixed;
+                  padding-top: 8px;
+                 }
+                 /*             
+==============================================
+STICKY NAV 
+==============================================
+        */
+                 
+                 #sticky-nav {
+                  z-index: 100;
+                  position: fixed;
+                  width: 100%;
+                  display: inline;
+                  background-color: white;
+                  top: 0px;
+                  border-bottom: 1px solid gainsboro;
+                 }
+                 
+                 #content {
+                  margin: 0;
+                  width: 100%;
+                  height: 100%;
+                 }
+                 /*             
+==============================================
+Welcome
+==============================================
+        */
+                 
+                 .welcome {
+                  width: 100%;
+                  margin: 0;
+                  padding: 60px 10% 20px;
+                 }
+                 
+                 .welcome h2 {
+                  display: block;
+                  font-family: 'Rokkitt', sans-serif;
+                  font-weight: 100;
+                  font-size: 3.2em;
+                  color: #000;
+                  text-transform: uppercase;
+                  line-height: 1.2;
+                  letter-spacing: 1.2rem;
+                  overflow: hidden;
+                  text-align: center;
+                 }
+                 
+                 #intro {
+                  width: 100%;
+                  text-align: left;
+                  background-color: #fff;
+                  font-family: 'Muli', sans-serif;
+                  padding: 0 18% 150px;
+                 }
+                 /*             
+==============================================
+Footer
+==============================================
+        */
+                 
+                 #info {
+                  margin-top: 5px;
+                  color: white;
+                  padding-top: 5px;
+                  font-size: 0.78em;
+                  line-height: 1.3;
+                  background-color: #333131;
+                  vertical-align: baseline;
+                 }
+                 
+                 #address {
+                  float: left;
+                  padding: 2%;
+                  white-space: nowrap;
+                 }
+                 
+                 #footer_hours {
+                  display: block;
+                  float: right;
+                  padding: 2%;
+                  white-space: nowrap;
+                 }
+                 
+                 #hours {
+                  text-transform: uppercase;
+                  text-align: right;
+                  margin: 0;
+                 }
+                 
+                 table#hours td {
+                  padding: 0 10px;
+                  margin: 0;
+                 }
+                 
+                 table {
+                  border-collapse: collapse;
+                  border-spacing: 0;
+                  margin: 0;
+                  padding: 0;
+                  border: : 0;
+                 }
+                 
+                 .days {
+                  padding: 0 3px;
+                 }
+                 
+                 .times {
+                  padding: 0 10px;
+                 }
